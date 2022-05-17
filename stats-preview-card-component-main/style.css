@@ -25,13 +25,13 @@ p{
     text-align: left;
     font-size: 0.9em;
 }
-.first-box-3 p{
+.first-container-3 p{
     font-size: 0.6em;
     letter-spacing: 2px;
     margin-top: 1em;
     font-family:'lexend Deca',sans-serif;    
 }
-.first-box-3 h3{
+.first-container-3 h3{
     font-family: 'Inter', sans-serif;
     font-weight: 700;
 }
@@ -48,7 +48,7 @@ main{
     background: hsl(244, 38%, 16%);
     color: #fff;
 }
-.second-box{
+.second-container{
     background: linear-gradient(
         hsla(277, 92%, 30%, 0.473), hsla(277, 92%, 30%, 0.473)),
         url(/stats-preview-card-component-main/images/image-header-desktop.jpg);
@@ -57,7 +57,7 @@ main{
         background-size: cover;
         border-radius: 4px;
 }
-.first-box-1 span{
+.first-container-1 span{
     color: hsl(277, 64%, 61%);
 }
 /* COLOR STYLE ENDS */
@@ -71,41 +71,41 @@ main{
     display: grid;
     grid-template-columns: 50% 50%;
 }
-.first-box{
+.first-container{
     padding: 10%;
 }
-.first-box-1{
+.first-container-1{
     margin-bottom: 2em;
 }
-.first-box-2{
+.first-container-2{
     margin-bottom: 4em;
 }
-.first-box-3{
+.first-container-3{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     justify-content: space-between;
     text-transform: uppercase;
 }
-.second-box{
+.second-container{
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2em;
 }
-.second-box p{
+.second-container p{
     opacity: 0;
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 700;
 }
-.second-box:hover{
+.second-container:hover{
     background: linear-gradient(hsla(277,93%, 16%, 0.89), hsla(277, 93%, 17%, 0.822))
     url(/stats-preview-card-component-main/images/image-header-desktop.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-.second-box:hover p{opacity: 1;}
+.second-container:hover p{opacity: 1;}
 @media (max-width:800px) {
     main{
         width: 90%;
